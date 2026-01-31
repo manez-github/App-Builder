@@ -26,19 +26,13 @@ See App-Builder in action — both apps below were generated entirely from a sin
 
 A fully functional calculator app with support for basic arithmetic operations.
 
-<video controls width="100%">
-  <source src="https://github.com/manez-github/App-Builder/blob/main/assets/project_demo_videos/todo-list.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/12167b4f-5458-4fe2-9502-c21fbd3aea53
 
 ### ✅ To-Do List Web App
 
 An interactive to-do list app with the ability to add, edit, and delete tasks.
 
-<video controls width="100%">
-  <source src="https://github.com/manez-github/App-Builder/blob/main/assets/project_demo_videos/todo-list.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/415e4376-4a3c-4ad7-bc0c-e68301e3d51e
 
 <img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
