@@ -2,7 +2,7 @@
 
 An AI-powered application that generates fully functional, interactive applications from a single natural-language prompt. Built using a multi-agent pipeline with [LangGraph](https://github.com/langchain-ai/langgraph) and powered by a Groq-hosted LLM.
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## How It Works
 
@@ -16,7 +16,7 @@ App-Builder uses a three-stage agent pipeline, where each agent has a clearly de
 
 All generated files are written to a `generated_project/` directory in your working directory. A path-safety check ensures no file is ever written outside that root.
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## Demo
 
@@ -27,7 +27,7 @@ See App-Builder in action — both apps below were generated entirely from a sin
 A fully functional calculator app with support for basic arithmetic operations.
 
 <video controls width="100%">
-  <source src="https://github.com/manez-github/App-Builder/tree/main/assets/project_demo_videos/todo-list.mp4" type="video/mp4">
+  <source src="https://github.com/manez-github/App-Builder/blob/main/assets/project_demo_videos/todo-list.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -36,11 +36,11 @@ A fully functional calculator app with support for basic arithmetic operations.
 An interactive to-do list app with the ability to add, edit, and delete tasks.
 
 <video controls width="100%">
-  <source src="https://github.com/manez-github/App-Builder/tree/main/assets/project_demo_videos/todo-list.mp4" type="video/mp4">
+  <source src="https://github.com/manez-github/App-Builder/blob/main/assets/project_demo_videos/todo-list.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## Project Structure
 
@@ -58,7 +58,7 @@ App-Builder/
 └── .gitignore
 ```
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## Prerequisites
 
@@ -66,7 +66,7 @@ App-Builder/
 - **[uv](https://docs.astral.sh/uv/)** — the package manager used by this project
 - A **Groq API key** (the project uses the `moonshotai/kimi-k2-instruct-0905` model via Groq)
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## Setup
 
@@ -131,7 +131,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 The project uses `python-dotenv` to load this automatically at startup.
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## Usage
 
@@ -147,7 +147,7 @@ Enter your project prompt: Build a simple calculator web app
 
 The three agents will run in sequence. Once they finish, your generated application will be in the `generated_project/` directory, ready to open or run.
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## Key Design Decisions
 
@@ -159,7 +159,7 @@ The three agents will run in sequence. Once they finish, your generated applicat
 
 **ReAct agent for code generation.** Rather than just asking the LLM to return code as text, the Coder stage uses a LangChain ReAct agent with real tools. This means the LLM can read existing files, reason about what to write, and then call `write_file` — a more reliable loop than hoping the model formats an entire file correctly in one response.
 
-<img src="https://github.com/manez-github/App-Builder/tree/main/assets/images/separator.svg" width="100%" height="4">
+<img src="https://github.com/manez-github/App-Builder/blob/main/assets/images/separator.svg" width="100%" height="4">
 
 ## Dependencies
 
